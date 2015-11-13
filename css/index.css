@@ -1,0 +1,37 @@
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.clearfix::after {
+  clear: both;
+}
+.carousel {
+  padding-left: 100px;
+}
+ul {
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 10px;
+}
+ul li {
+  list-style: none;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 2px #ccc;
+  border-radius-bottom: 0;
+  padding: 4px;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
+ul li img {
+  width: 150px;
+}
