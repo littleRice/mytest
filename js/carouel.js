@@ -15,7 +15,7 @@ $(function () {
     }
     $li.each(function (index, v) {
       if (index < position) {
-        $(v).find('img').width(150);
+        $(v).find('img').width(250);
         $(v).css('left', index * 100);
         $(v).css('z-index', length - position + index);
       } else if (index == position) {
@@ -23,7 +23,7 @@ $(function () {
         $(v).css('left', index * 100);
         $(v).css('z-index', length - position + index);
       } else {
-        $(v).find('img').width(150);
+        $(v).find('img').width(200);
         $(v).css('left', 100 + index * 100);
         $(v).css('z-index', length - index - 1);
       }

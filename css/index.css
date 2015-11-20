@@ -30,8 +30,8 @@ ul li {
   padding: 4px;
   padding-bottom: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
 }
 ul li img {
-  width: 150px;
+  width: 200px;
 }
