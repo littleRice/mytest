@@ -15,22 +15,23 @@
   padding-left: 100px;
 }
 ul {
-  height: 360px;
+  height: 460px;
   overflow: hidden;
   position: relative;
   padding: 0 10px;
 }
 ul li {
   list-style: none;
+  background-color: #fff;
   border: 1px solid #ccc;
   border-bottom: 0;
   border-radius: 5px;
-  box-shadow: 0 0 6px 2px #ccc;
+  box-shadow: 0 0 10px 10px #ccc;
   border-radius-bottom: 0;
   padding: 4px;
   padding-bottom: 0;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
 }
 ul li img {
   width: 200px;
