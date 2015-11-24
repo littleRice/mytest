@@ -2,15 +2,6 @@
   width: 980px;
   margin: 0 auto;
 }
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
-  line-height: 0;
-}
-.clearfix::after {
-  clear: both;
-}
 .carousel {
   padding-left: 100px;
 }
@@ -35,4 +26,11 @@ ul li {
 }
 ul li img {
   width: 200px;
+}
+.test {
+  background: url(../img/carousel/01.jpg) no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 100px;
 }

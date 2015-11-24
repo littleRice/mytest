@@ -10,7 +10,7 @@
 <body>
 <div>
   <div class="carousel">
-    <ul class="clearfix"> 
+    <ul> 
       <li><a href="javascript:;"><img src="img/carousel/01.jpg"/></a></li>
       <li><a href="javascript:;"><img src="img/carousel/02.jpg"/></a></li>
       <li><a href="javascript:;"><img src="img/carousel/03.jpg"/></a></li>
@@ -23,6 +23,9 @@
       <li><a href="javascript:;"><img src="img/carousel/10.jpg"/></a></li>
       <li><a href="javascript:;"><img src="img/carousel/11.jpg"/></a></li>
     </ul>
+  </div>
+  <div class="test">
+    
   </div>
 </div>
 </body>
